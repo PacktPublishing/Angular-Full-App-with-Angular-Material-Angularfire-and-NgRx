@@ -1,0 +1,11 @@
+Adding the Theme with Angular 6
+Section 10, Lecture 136
+If you got a project created with the Angular CLI version 6 or higher, you add the theme slightly different than shown in the next lecture.
+
+First of all, you can tell that you got such a project by checking whether you have an angular.json  file in your project folder. If you have it, you have an Angular CLI 6 project. Otherwise (with an .angular-cli.json  file), it's a CLI 1.x project.
+
+In the latter case, no adjustment are required.
+
+If you have an angular.json  file, you have to add the theme by adding src/my-theme.scss  to your styles[]  array in that file instead of just my-theme.scss  as shown in the next video.
+
+That's all!

@@ -1,0 +1,23 @@
+Code without rxjs-compat
+Section 5, Lecture 59
+Important: This only applies if you're using Angular 6 and RxJS 6 (or higher). Check the package.json  file to find out which version you are using, skip this lecture if you're using an older version of Angular and RxJS.
+
+With rxjs-compat  (which you installed via npm install --save rxjs-compat ) you should be able to use the code exactly as shown in the last lecture.
+
+If you want to make it work without that package (which would have the advantage of saving some kbs on the final bundle), you'll have to do one simple adjustment:
+
+import { Subject } from 'rxjs'; 
+
+instead of
+
+import { Subject } from 'rxjs/Subject'; 
+
+and
+
+import { Subscription } from 'rxjs'; 
+
+instead of
+
+import { Subscription } from 'rxjs/Subscription'; 
+
+And that will be the general theme for the course by the way. Directly import from 'rxjs'  instead of 'rxjs/Something' .

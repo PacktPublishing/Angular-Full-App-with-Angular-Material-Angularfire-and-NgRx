@@ -1,0 +1,6 @@
+Useful Resources & Links
+Section 9, Lecture 133
+Official Deployment Guide: https://angular.io/guide/deployment
+Official Firebase Hosting Docs: https://firebase.google.com/docs/hosting/
+Resources for this lecture
+deployment.zip

@@ -1,0 +1,7 @@
+IMPORTANT: Install rxjs-compat
+Section 5, Lecture 58
+As explained in the last video, you could theoretically NOT use rxjs-compat  and update all your RxJS-related code (imports + operator usage) as explained.
+
+BUT Angularfire wasn't updated to support RxJS 6 yet. And since we'll use Angularfire in this course, you will need rxjs-compat  installed for the time being
+
+=> npm install --save rxjs-compat 

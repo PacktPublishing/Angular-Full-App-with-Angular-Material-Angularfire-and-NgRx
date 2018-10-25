@@ -1,0 +1,8 @@
+Useful Resources & Links
+Section 5, Lecture 77
+Detailed Docs on the Data Table: https://material.angular.io/components/table/overview
+Resources for this lecture
+data-01-auth.zip
+data-02-route-protection.zip
+data-03-training-service.zip
+Show more (3)
